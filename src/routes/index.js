@@ -1,5 +1,12 @@
-import { helloRoute } from './helloRoute';
+import { createConversationRoute } from './createConversationRoute';
+import { getAllUsersRoute } from './getAllUsersRoute';
+import { getConnectionRoute } from './getConnectionRoute';
+import { getUserConversationsRoute } from './getUserConversationsRoute';
 
+export { protectRoute } from './protectRoute';
 export const routes = [
-    helloRoute,
+    createConversationRoute,
+    getAllUsersRoute,
+    getConnectionRoute,
+    getUserConversationsRoute,
 ];
